@@ -1,5 +1,5 @@
 import { header } from '../../portfolio';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navbar/NavBar';
 import './Header.css';
 
 interface HeaderProps {
