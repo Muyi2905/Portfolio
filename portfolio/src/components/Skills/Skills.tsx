@@ -4,7 +4,15 @@ import './Skills.css';
 
 interface Skill {
   name: string;
+  icon: string; // add an icon property
 }
+
+const skills: Skill[] = [
+  { name: 'HTML', icon: 'html5-icon.png' },
+  { name: 'CSS', icon: 'css3-icon.png' },
+  { name: 'JavaScript', icon: 'js-icon.png' },
+  // ...
+];
 
 const Skills = () => {
   if (!skills.length) return null;
@@ -15,6 +23,7 @@ const Skills = () => {
       <ul className="skills__list">
         {skills.map((skill: Skill) => (
           <li key={uniqid()} className="skills__list-item btn btn--plain">
+            <img src={skill.icon} alt={skill.name} className="skill-icon" />
             {skill.name}
           </li>
         ))}
