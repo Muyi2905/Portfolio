@@ -1,7 +1,7 @@
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import { about } from '../../portfolio';
-import './About.css';
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { about } from "../../portfolio";
+import "./About.css";
 
 interface AboutProps {
   name: string;
@@ -31,9 +31,7 @@ const About = () => {
       <div className="about__contact center">
         {resume && (
           <a href={resume}>
-            <span type="button" className="btn btn--outline">
-              Resume
-            </span>
+            <span className="btn btn--outline">Resume</span>
           </a>
         )}
 
