@@ -145,6 +145,19 @@ main {
   transform: translateY(-5px);
 }
 
+.contact__links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__links a {
+  margin-right: 20px;
+}
+
+.contact__links a:last-child {
+  margin-right: 0;
+}
+
 @media (max-width: 600px) {
   .section {
     margin-top: 4em;
