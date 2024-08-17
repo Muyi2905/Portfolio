@@ -11,6 +11,7 @@ interface AboutProps {
   social: {
     github: string;
     linkedin: string;
+    X: string;
   };
 }
 

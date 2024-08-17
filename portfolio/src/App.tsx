@@ -15,7 +15,7 @@ interface ThemeContextProps {
 }
 
 const App = () => {
-  const [{ themeName }] = useContext(ThemeContext) as [ThemeContextProps];
+  const { themeName } = useContext(ThemeContext) as ThemeContextProps;
 
   return (
     <div id="top" className={`${themeName} app`}>

@@ -7,17 +7,13 @@ import { ThemeContext } from '../../contexts/theme';
 import { projects, skills, contact } from '../../portfolio';
 import './Navbar.css';
 
-// The rest of your component code will go here
-
-
-
-interface NavbarProps {
+interface ThemeContextProps {
   themeName: string;
   toggleTheme: () => void;
 }
 
 const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext) as [NavbarProps];
+  const { themeName, toggleTheme } = useContext(ThemeContext) as ThemeContextProps;
   const [showNavList, setShowNavList] = useState(false);
 
   const toggleNavList = () => setShowNavList(!showNavList);

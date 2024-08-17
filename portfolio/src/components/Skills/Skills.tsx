@@ -1,5 +1,4 @@
 import uniqid from 'uniqid';
-import { skills } from '../../portfolio';
 import './Skills.css';
 
 interface Skill {
@@ -11,6 +10,8 @@ const skills: Skill[] = [
   { name: 'HTML', icon: 'html5-icon.png' },
   { name: 'CSS', icon: 'css3-icon.png' },
   { name: 'JavaScript', icon: 'js-icon.png' },
+  { name: 'React', icon: 'react-icon.png' },
+  { name: 'Node.js', icon: 'nodejs-icon.png' },
   // ...
 ];
 

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
-import './ScrollToTop.css';
 
-const ScrollToTop = () => {
-  const [isVisible, setIsVisible] = useState(false);
+const ScrollToTop: React.FC = () => {
+  const [isVisible, setIsVisible] = useState<boolean>(false);
 
   useEffect(() => {
     const toggleVisibility = () =>
