@@ -1,5 +1,6 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter'; // Add Twitter icon
 import { about } from '../../portfolio';
 import './About.css';
 
@@ -11,7 +12,7 @@ interface AboutProps {
   social: {
     github: string;
     linkedin: string;
-    X: string;
+    X: string; // Rename X to twitter
   };
 }
 
@@ -55,6 +56,16 @@ const About = () => {
                 className="link link--icon"
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {social.X && ( // Add Twitter link
+              <a
+                href={social.X}
+                aria-label="twitter"
+                className="link link--icon"
+              >
+                <TwitterIcon />
               </a>
             )}
           </>

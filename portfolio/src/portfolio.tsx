@@ -11,6 +11,7 @@ interface Header {
     social?: {
       linkedin?: string;
       github?: string;
+      X?: string;
     };
   }
   
@@ -27,19 +28,20 @@ interface Header {
   }
   
   const header: Header = {
-    homepage: 'https://rjshkhr.github.io/cleanfolio',
-    title: 'JS.',
+    homepage: 'https://github.com/Muyi2905',
+    title: 'MO.',
   };
   
   const about: About = {
-    name: 'John Smith',
-    role: 'Front End Engineer',
+    name: 'Muyiwa Obaremi',
+    role: 'Software Engineer',
     description:
-      'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+      'Passionate about building innovative solutions and continuously learning new technologies. I enjoy designing and developing scalable, efficient, and user-friendly applications. With a strong foundation in both front-end and back-end development, I`m always excited to take on new challenges and explore emerging trends in the tech industry.',
     resume: 'https://example.com',
     social: {
-      linkedin: 'https://linkedin.com',
-      github: 'https://github.com',
+      linkedin: 'https://www.linkedin.com/in/muyiwaobaremi/',
+      github: 'https://github.com/Muyi2905',
+      X: 'https://X.com/Muyi_dev'
     },
   };
   
@@ -86,7 +88,7 @@ interface Header {
   ];
   
   const contact: Contact = {
-    email: 'johnsmith@mail.com',
+    email: 'obaremimyiwa@gmail.com',
   };
   
   export { header, about, projects, skills, contact };

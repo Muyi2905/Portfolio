@@ -1,6 +1,7 @@
 import uniqid from 'uniqid';
 import './Skills.css';
 
+
 interface Skill {
   name: string;
   icon: string; // add an icon property
