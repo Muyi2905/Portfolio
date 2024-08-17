@@ -1,7 +1,7 @@
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import { about } from "../../portfolio";
-import "./About.css";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { about } from '../../portfolio';
+import './About.css';
 
 interface AboutProps {
   name: string;
