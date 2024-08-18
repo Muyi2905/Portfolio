@@ -22,6 +22,7 @@ const skills: Skill[] = [
   { name: "MongoDB" },
   { name: "Postgres" },
   { name: "Git" },
+  {name : "Linux"}
 ];
 
 const Skills = () => {
