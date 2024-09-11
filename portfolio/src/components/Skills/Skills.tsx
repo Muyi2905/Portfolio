@@ -13,7 +13,6 @@ const skills: Skill[] = [
   { name: "React" },
   { name: "Node.js" },
   { name: "Docker" },
-  { name: "Kubernetes" },
   { name: "TypeScript" },
   { name: "CI/CD" },
   { name: "Web Design" },
