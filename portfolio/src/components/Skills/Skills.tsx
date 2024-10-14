@@ -14,6 +14,7 @@ const skills: Skill[] = [
   { name: "Node.js" },
   {name: "ExpressJs"},
   { name: "Docker" },
+  { name: "Kubernetes" },
   { name: "TypeScript" },
   { name: "Python" },
   { name: "MySql" },
