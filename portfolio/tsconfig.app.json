@@ -8,7 +8,7 @@
     // "emit": true, // Removed this line
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     // "noEmit": true,
     // "allowImportingTsExtensions": true,
     "isolatedModules": true,
