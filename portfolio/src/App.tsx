@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div id="top" className={`${themeName} app`}>
-      <Header />
+      <Header homepage="yourHomepageUrl" title="Title" />
 
       <main>
         <About />
