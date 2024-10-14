@@ -3,12 +3,13 @@ import Navbar from '../Navbar/NavBar';
 import './Header.css';
 
 interface HeaderProps {
-  homepage: string | null;
+  homepage: string | null | undefined; 
   title: string;
 }
 
-const Header = () => {
-  const { homepage, title }: HeaderProps = header;
+const Header: React.FC<HeaderProps> = ({ homepage = null, title }) => {
+
+
 
   return (
     <header className="header center">

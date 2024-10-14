@@ -78,8 +78,8 @@ interface Header {
     'JavaScript',
     'TypeScript',
     'React',
-    'Redux',
-    'SASS',
+    
+    
     'Material UI',
     'Git',
     'CI/CD',
