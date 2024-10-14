@@ -8,4 +8,7 @@ export default defineConfig({
     port: 8080,
     open: true,
   },
+  build: {
+    outDir: 'build', // Set the output directory to 'build'
+  },
 });
