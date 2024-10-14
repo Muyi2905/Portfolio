@@ -11,9 +11,9 @@ interface Project {
   livePreview?: string;
 }
 
-interface ProjectsProps {
-  projects: Project[];
-}
+// interface ProjectsProps {
+//   projects: Project[];
+// }
 
 const Projects = () => {
   if (!projects.length) return null;

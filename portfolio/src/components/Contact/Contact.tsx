@@ -1,8 +1,8 @@
 import "./Contact.css";
 
-interface ContactProps {
-  email: string;
-}
+// interface ContactProps {
+//   email: string;
+// }
 
 const Contact = () => {
   const email = "obaremimuyiwa@gmail.com";
