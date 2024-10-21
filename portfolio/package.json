@@ -7,8 +7,8 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-     "build": "vite build --outDir build",
-    "start": "FAST_REFRESH=true react-scripts start"
+    "build": "vite build --outDir dist",  
+    "start": "vite" 
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
